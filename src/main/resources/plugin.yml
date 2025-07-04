@@ -1,0 +1,4 @@
+name: GetMaxPlayer
+version: '${project.version}'
+main: net.dxzzz.getmaxplayer.GetMaxPlayer
+depend: [PlaceholderAPI]
