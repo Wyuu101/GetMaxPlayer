@@ -1,0 +1,2 @@
+# GetMaxPlayer
+Minecraft服务器集群下用于获取各后端服务器最大人数并注册共享的Placeholder变量
