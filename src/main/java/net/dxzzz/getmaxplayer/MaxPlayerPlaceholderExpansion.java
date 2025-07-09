@@ -34,14 +34,14 @@ public class MaxPlayerPlaceholderExpansion extends PlaceholderExpansion {
         if (serverName == null || serverName.isEmpty()) return "";
 
         String value = redisManager.getMaxPlayers(serverName);
-        return value != null ? value : "未知";
+        return value != null ? value : "-1";
     }
     @Override
     public String onPlaceholderRequest(Player player, String serverName){
         if (serverName == null || serverName.isEmpty()) return "";
 
         String value = redisManager.getMaxPlayers(serverName);
-        return value != null ? value : "未知";
+        return value != null ? value : "-1";
 
     }
 }
